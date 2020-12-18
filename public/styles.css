@@ -29,7 +29,6 @@ html,body {
 .title{
     margin-bottom: 0%;
 
-
 }
 
 .fas{
@@ -54,7 +53,7 @@ html,body {
     width: 100%;
 }
 .p_titulo{
-    margin-bottom:10px;
+    margin-bottom:20px;
     color: white;
 }
 
@@ -138,10 +137,12 @@ html,body {
     flex-wrap: wrap;
 }
 
-a {
-    text-decoration: none;    
+.container_footer a:hover{
+    text-decoration: none;
+    color: rgb(199, 199, 199);
 }
 
-a:link {
+.container_footer a{
+    text-decoration: none;
     color: rgb(199, 199, 199);
 }
