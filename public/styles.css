@@ -1,0 +1,147 @@
+/*HEADER*/
+header{
+    display: flex;
+}
+
+html,body {
+    height:100%;
+}
+.carousel, .item, .active {
+    height:100%;
+}
+.carousel { 
+    top: 0;
+}
+
+.carousel-inner img {
+    margin: auto;
+    width: 100%;
+}
+
+.navbar{
+    z-index:9;
+}
+
+.navbar-brand{
+    padding-right: 25px;
+}
+
+.title{
+    margin-bottom: 0%;
+
+
+}
+
+.fas{
+    margin-right: 10px;
+}
+
+#fullCarousel{
+    width:100%;
+    top:0;
+}
+
+/*FOOTER*/
+/* parte superior */
+.container_footer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    flex-grow: 0;
+    width: 100%;
+}
+.p_titulo{
+    margin-bottom:10px;
+    color: white;
+}
+
+.footer_box_izq {
+    width: 40%;
+    color: rgb(199, 199, 199);
+}
+.footer_box_der {
+    width: 60%;
+    color: rgb(199, 199, 199);
+    padding-left: 0px;
+}
+
+.footer_box_titulo {
+    color: rgb(255, 255, 255);
+}
+
+.footer_margin {
+    margin-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 0px;
+}
+
+
+.sep{
+    margin-top: 10px;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(199, 199, 199);
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+
+.font{
+    font-family: "montserrat", sans-serif;
+}
+
+.b-color{
+    background-color: rgb(44, 44, 44);
+}
+
+/* Parte inferior */
+.footer_inferior{
+    justify-content: center;
+    text-align: center;
+}
+
+.texto_inferior{
+    color: rgb(199, 199, 199);
+    
+}
+
+.texto_inferior_margin{
+    margin: 0%;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+.contactos{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none
+}
+
+.bloque_contacto{
+    display: flow-root;
+    margin-bottom: 10px;
+    margin-right: 25px;
+}
+
+.contacto_name{
+    margin: 0%;
+    color: white;
+}
+
+.contacto_rol_mail{
+    margin: 0%;
+    font-size: 75%;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;    
+}
+
+a:link {
+    color: rgb(199, 199, 199);
+}
