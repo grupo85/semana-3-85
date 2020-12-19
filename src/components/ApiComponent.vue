@@ -1,6 +1,6 @@
 <template >
     <div>
-        <div class="row mt-md-5 mt-sm-5 mt-xs-5"   >
+        <div class="row">
             <div class="col-lg-6 col-xs-12 border" v-for="(noticia,index ) of noticias" :key="index">
                 <div class="d-flex justify-content-center align-itemscenter" >
 
